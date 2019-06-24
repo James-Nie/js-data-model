@@ -1,7 +1,7 @@
 'use strict';
 /*
 	author:niejianbo
-    name:js-data-model
+    name:js-data-structure
     date:2019-06-24
     VERSION = "1.0.0"
 */

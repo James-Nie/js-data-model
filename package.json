@@ -1,16 +1,16 @@
 {
-    "_from": "js-data-model@1.0.0",
-    "_id": "js-data-model@1.0.0",
-    "name": "js-data-model",
+    "_from": "js-data-structure@1.0.0",
+    "_id": "js-data-structure@1.0.0",
+    "name": "js-data-structure",
     "version": "1.0.0",
     "description": "The realize of javascript data structure",
-    "main": "dist/js-data-model.min.js",
+    "main": "index.js",
     "_requested": {
         "type": "version",
         "registry": true,
-        "raw": "js-data-model@1.0.0",
-        "name": "js-data-model",
-        "escapedName": "js-data-model",
+        "raw": "js-data-structure@1.0.0",
+        "name": "js-data-structure",
+        "escapedName": "js-data-structure",
         "saveSpec": null,
         "fetchSpec": "1.0.0"
     },
@@ -31,11 +31,6 @@
     },
     "author": "niejianbo@hikvision.com.cn",
     "license": "MIT",
-    "jest": {
-        "globals": {
-            "window": true
-        }
-    },
     "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.3.3",
