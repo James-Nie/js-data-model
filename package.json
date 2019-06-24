@@ -1,0 +1,49 @@
+{
+    "_from": "js-data-model@1.0.0",
+    "_id": "js-data-model@1.0.0",
+    "name": "js-data-model",
+    "version": "1.0.0",
+    "description": "The realize of javascript data structure",
+    "main": "dist/js-data-model.min.js",
+    "_requested": {
+        "type": "version",
+        "registry": true,
+        "raw": "js-data-model@1.0.0",
+        "name": "js-data-model",
+        "escapedName": "js-data-model",
+        "saveSpec": null,
+        "fetchSpec": "1.0.0"
+    },
+    "scripts": {
+        "build": "node build/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://af.hikvision.com.cn/artifactory/api/npm/npm-pbg/"
+    },
+    "keywords": [
+        "structure",
+        "javascript",
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "http://af.hikvision.com.cn/artifactory/api/npm/npm-pbg/"
+    },
+    "author": "niejianbo@hikvision.com.cn",
+    "license": "MIT",
+    "jest": {
+        "globals": {
+            "window": true
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.3.3",
+        "babel-loader": "^8.0.5",
+        "chalk": "^2.4.2",
+        "copy": "^0.3.2",
+        "ora": "^3.1.0",
+        "rimraf": "^2.6.3",
+        "webpack": "^4.29.5"
+    }
+}
